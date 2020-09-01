@@ -1,0 +1,10 @@
+install brew brew install mongodb-community@4.2
+the configuration file (/usr/local/etc/mongod.conf)
+the log directory path (/usr/local/var/log/mongodb)
+the data directory path (/usr/local/var/mongodb)
+export PATH="/usr/local/opt/mongodb-community@4.2/bin:$PATH"
+
+brew services start mongodb-community@4.2
+start db:mongod
+
+
